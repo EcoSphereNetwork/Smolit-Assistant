@@ -24,21 +24,6 @@ Smolit-Assistant ist ein revolutionärer KI-Assistent, der speziell für das Smo
     
 
 Durch die Kombination dieser sechs Schlüsselelemente ermöglicht Smolit-Assistant den Nutzern von SmolituxOS eine unvergleichliche Flexibilität, Kontrolle und Effizienz bei der Interaktion mit ihrem Betriebssystem.
-________________________________________________________________________
-## INDEX:
-## App
-#### [[Desktop App]]
-- Desktop Widget 
-	- visible if main page is minimized
-	- if main page minimizied deskotop widget is allways on top
-	- on_click -> maximize the main page
-#### [[Mobile App]]
-- Mobile App Widget 
-	- visible if main page is minimized
-	- if main page minimizied deskotop widget is allways on top
-	- on_click -> maximize the main page
-#### [[Web App]]
 
-## [[CLI]]
 
 
