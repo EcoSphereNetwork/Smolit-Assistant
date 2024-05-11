@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TradingBot</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TradingBot - SmoliTrade" />
+    <meta property="og:description"
+        content="TradingBot is a Raspberry Pi-based automated trading solution configured with SmoliTradeOS and multiple open-source tools." />
+    <meta name="keywords"
+        content="TradingBot, SmoliTrade, Smolit, Automated Trading, Freqtrade, OctoBot" />
+    <meta property="og:image" content="logo.png" />
+
+    <link rel="icon" href="logo.png" rel="icon" sizes="32x32" />
+    <link rel="icon" href="logo.png" sizes="192x192" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>TradingBot</h1>
+        <h2>SmoliTrade</h2>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h3>Introduction</h3>
+            <p>TradingBot is a Raspberry Pi-based automated trading solution configured with SmoliTradeOS and many
+                other open-source trading tools.</p>
+        </section>
+
+        <section id="components">
+            <h3>Project Components</h3>
+            <ul>
+                <li>
+                    <strong>Freqtrade:</strong> A powerful open-source trading bot written in Python, configurable to
+                    suit different user needs. Supports machine learning optimization with HyperOpt.
+                </li>
+                <li>
+                    <strong>OctoBot:</strong> Another open-source bot with a user-friendly Web UI, paid services,
+                    and LLMs integration capabilities.
+                </li>
+                <li>
+                    <strong>SmolitTrade:</strong> A custom framework that integrates Freqtrade, OctoBot, and other ML/DL algorithms for cohesive automation.
+                </li>
+            </ul>
+        </section>
+
+        <section id="hardware">
+            <h3>Hardware Requirements</h3>
+            <p>The TradingBot uses a Raspberry Pi 4 with 8GB RAM, providing ample power while being highly energy
+                efficient. Optional display configuration is available at an additional cost.</p>
+        </section>
+
+        <section id="access">
+            <h3>Access and Updates</h3>
+            <p>Access to the bot is available through a Web UI, an app, or Telegram. The bot is designed to automatically install regular updates, including software changes, new strategies, and configurations.</p>
+        </section>
+
+        <section id="source-code">
+            <h3>Source Code</h3>
+            <p>Find all updates and source code in our <a href="https://github.com/user/repo">GitHub repository</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; TradingBot Project - SmoliTrade</p>
+    </footer>
+</body>
+
+</html>
