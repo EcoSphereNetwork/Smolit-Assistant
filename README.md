@@ -1,8 +1,8 @@
 # Smolit-Assistant
 Smolit-Assistant - Your digital assistant for every use case
-
 ___
-
+#EcoSphere-Networks | #Smolit
+___
 
 **Smolit-Assistant: Der LLM-basierte KI-Assistent von SmolituxOS**
 
