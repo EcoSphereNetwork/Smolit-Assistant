@@ -10,3 +10,6 @@
 [submodule "Smolitux-Suite"]
 	path = Smolitux-Suite
 	url = NFT
+[submodule "Academy-Game"]
+	path = Academy-Game
+	url = NFT
