@@ -16,3 +16,6 @@
 [submodule "SmoliTrade-App"]
 	path = SmoliTrade-App
 	url = NFT
+[submodule "SmoliTradeOS"]
+	path = SmoliTradeOS
+	url = NFT
