@@ -32,8 +32,8 @@
   .message-input {
     display: flex;
     padding: 10px;
-    border-top: 1px solid #ddd;
-    background: #f9f9f9;
+    border-top: 1px solid var(--border-color);
+    background: var(--input-bg);
   }
   
   input {
@@ -41,20 +41,27 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
+    background: var(--input-bg);
+    color: var(--text-color);
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--primary-color);
   }
   
   button {
     padding: 10px 15px;
     margin-left: 10px;
     border: none;
-    background-color: #1890ff;
+    background-color: var(--primary-color);
     color: white;
     border-radius: 5px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #40a9ff;
+    background-color: var(--secondary-color);
   }
   </style>
   

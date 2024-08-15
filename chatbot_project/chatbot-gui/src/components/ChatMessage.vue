@@ -8,6 +8,7 @@
 export default {
   props: {
     message: Object,
+    sender: String,
   },
 };
 </script>
@@ -18,15 +19,18 @@ export default {
   padding: 10px;
   border-radius: 10px;
   max-width: 80%;
+  background-color: var(--message-bg-bot);
+  color: var(--text-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .message.user {
-  background-color: #e6f7ff;
+  background-color: var(--message-bg-user);
   align-self: flex-end;
 }
 
 .message.bot {
-  background-color: #f5f5f5;
+  background-color: var(--message-bg-bot);
   align-self: flex-start;
 }
 </style>
