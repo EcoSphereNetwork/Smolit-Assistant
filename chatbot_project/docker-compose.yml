@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    container_name: chatbot_container
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LOCALAI_API_ENDPOINT=${LOCALAI_API_ENDPOINT}
+      - CACHE_TTL=${CACHE_TTL}
+      - LOG_LEVEL=${LOG_LEVEL}
+      - LOG_FILE=${LOG_FILE}
+      - INTERACTION_LOG_FILE=${INTERACTION_LOG_FILE}
+      - FINE_TUNED_MODEL_DIR=${FINE_TUNED_MODEL_DIR}
+      - PRODUCTION_MODEL_DIR=${PRODUCTION_MODEL_DIR}
+      - TRAINING_INTERVAL=${TRAINING_INTERVAL}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:alpine"
+    container_name: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
