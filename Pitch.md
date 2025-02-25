@@ -13,10 +13,12 @@ Stellen Sie sich einen digitalen Assistenten vor, der nicht nur auf Ihre Befehle
 
 Zeitplan:
 
+    Phase 1
     Monat 1-2: Konzeptualisierung und Planung
         Definition der Kernfunktionen und Festlegung der Projektanforderungen.
         Erstellung eines detaillierten Projektplans mit Meilensteinen.
 
+    Phase 2
     Monat 3-4: Entwicklung der Spracherkennungs-Engine
         Implementierung und Training von Modellen zur natürlichen Sprachverarbeitung.
         Integration der Spracherkennung in das SmolituxOS.
@@ -33,6 +35,7 @@ Zeitplan:
         Durchführung umfangreicher Tests zur Qualitätssicherung.
         Fehlerbehebung und Optimierung basierend auf Testergebnissen.
 
+    Phase 3
     Monat 10: Veröffentlichung und Rollout
         Bereitstellung von Smolit-Assistant für die breite Öffentlichkeit.
         Einführung von Support- und Wartungsstrukturen für kontinuierliche Verbesserungen.
