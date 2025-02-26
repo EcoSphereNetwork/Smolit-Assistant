@@ -3,7 +3,7 @@ Smolit-Assistant - Your digital assistant for every use case
 
 ---
 
-## Die Organisation *EcoSphereNetwork* entwickelt ein **modulares KI-Agentensystem** mit den folgenden Hauptbestandteilen:
+**Die Organisation *EcoSphereNetwork* entwickelt ein **modulares KI-Agentensystem** mit den folgenden Hauptbestandteilen:**
 
 - **Smolit-Assistant** (Frontend/Benutzerinterface)
 - **Agent-Framework, Smolit_AdminBot, Smolit_LLM-NN** (Backend- und Agentensteuerung)
