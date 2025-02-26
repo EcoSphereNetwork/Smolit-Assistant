@@ -1,8 +1,12 @@
-# Smolit-Assistant
+# Die Organisation *EcoSphereNetwork* entwickelt ein **modulares KI-Agentensystem** mit den folgenden Hauptbestandteilen:
+
+- **Smolit-Assistant** (Frontend/Benutzerinterface)
+- **Agent-Framework, Smolit_AdminBot, Smolit_LLM-NN** (Backend- und Agentensteuerung)
+
+---
+
+## Smolit-Assistant
 Smolit-Assistant - Your digital assistant for every use case
-___
-#EcoSphere-Networks | #Smolit
-___
 
 **Smolit-Assistant: Der LLM-basierte KI-Assistent von SmolituxOS**
 
@@ -24,14 +28,6 @@ Smolit-Assistant ist ein revolutionärer KI-Assistent, der speziell für das Smo
     
 
 Durch die Kombination dieser sechs Schlüsselelemente ermöglicht Smolit-Assistant den Nutzern von SmolituxOS eine unvergleichliche Flexibilität, Kontrolle und Effizienz bei der Interaktion mit ihrem Betriebssystem.
-
-
-Die Organisation *EcoSphereNetwork* entwickelt ein **modulares KI-Agentensystem** mit den folgenden Hauptbestandteilen:
-
-- **Smolit-Assistant** (Frontend/Benutzerinterface)
-- **Agent-Framework, Smolit_AdminBot, Smolit_LLM-NN** (Backend- und Agentensteuerung)
-
----
 
 ## **1. Smolit-Assistant (Frontend/Client)**
 📌 **Repository:** [Smolit-Assistant](https://github.com/EcoSphereNetwork/Smolit-Assistant)
